@@ -1,1 +1,5 @@
-#= require_self
+#= require "jquery"
+
+#= require "foundation"
+
+#= require "initialize"

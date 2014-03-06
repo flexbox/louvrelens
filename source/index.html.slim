@@ -1,5 +1,5 @@
 ---
-title: Index
+title: Accueil
 ---
 
 .row
@@ -7,12 +7,11 @@ title: Index
 
     h1 Le louvre autrement
 
-
-    ul.large-block-grid-4.medium-block-grid-2
+    ul.large-block-grid-4.medium-block-grid-2 data-equalizer=""
       - data.categories.each_with_index do |category|
         li
           = link_to category.url do
-            .panel
+            .panel data-equalizer-watch=""
               i class="fa #{category.icon}"
               h2.l-title
                 = category.title
