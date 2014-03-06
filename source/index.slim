@@ -2,15 +2,19 @@
 title: Index
 ---
 
-h1 Le louvre autrement
+.row
+  .medium-12.columns
 
-ul.large-block-grid-4.medium-block-grid-2
-- data.categories.each_with_index do |category|
-  li
-    = link_to category.url do
-      .panel
-        i class="fa #{category.icon}"
-        h2.l-title
-          = category.title
-        p.l-description
-          = category.description
+    h1 Le louvre autrement
+
+
+    ul.large-block-grid-4.medium-block-grid-2
+      - data.categories.each_with_index do |category|
+        li
+          = link_to category.url do
+            .panel
+              i class="fa #{category.icon}"
+              h2.l-title
+                = category.title
+              p.l-description
+                = category.description
