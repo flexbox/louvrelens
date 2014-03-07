@@ -2,7 +2,7 @@
   title: Horaires
   description: Les heures d’ouverture du musée du Louvre-Lens
   icon: fa-clock-o
-  path: /hours.html
+  path: /horaires.html
 -
   title: Billets
   description: Acheter vos places en ligne

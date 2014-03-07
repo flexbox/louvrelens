@@ -10,7 +10,7 @@ title: Accueil
     ul.large-block-grid-4.medium-block-grid-2 data-equalizer=""
       - data.categories.each_with_index do |category|
         li
-          = link_to category.url do
+          = link_to category.path do
             .panel data-equalizer-watch=""
               i class="fa #{category.icon}"
               h2.l-title

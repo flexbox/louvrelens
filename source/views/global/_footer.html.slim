@@ -1,2 +1,9 @@
-p
-  '&copy; 2014 - Tous les contenu sont "piratés" depuis www.louvrelens.fr
+.row
+  .medium-8.columns
+    p
+      '&copy; 2014 - Tous les contenu sont "piratés" depuis
+      = link_to 'louvrelens.fr', 'http://louvrelens.fr', target: '_blank', :rel => 'nofollow'
+  .medium-4.columns
+    p
+      'Codé à la main par
+      = link_to 'David Leuliette', 'http://davidl.fr', target: '_blank', :rel => 'nofollow'
