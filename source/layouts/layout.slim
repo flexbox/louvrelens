@@ -9,8 +9,9 @@ html xmlns:og="http://ogp.me/ns#" xmlns:fb="https://www.facebook.com/2008/fbml" 
       '#{data.project.title} &bull; #{current_page.data.title}
     link rel="shortcut icon" href="#{image_path('favicon.ico')}" type="image/x-icon"
 
-    = stylesheet_link_tag 'https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css'
+    = stylesheet_link_tag 'https://fonts.googleapis.com/css?family=Old+Standard+TT|Trocchi'
     = stylesheet_link_tag 'application'
+    = stylesheet_link_tag 'https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css'
 
   body class='#{page_classes}'
     = partial 'views/global/menu_main'

@@ -2,18 +2,21 @@
 title: Accueil
 ---
 
+
+
 .row
   .medium-12.columns
 
     h1 Le louvre autrement
 
-    ul.large-block-grid-4.medium-block-grid-2 data-equalizer=""
+    ul.large-block-grid-4.medium-block-grid-2.m-category data-equalizer=""
       - data.categories.each_with_index do |category|
         li
-          = link_to category.path do
-            .panel data-equalizer-watch=""
+          .panel data-equalizer-watch=""
+            div.text-center
               i class="fa #{category.icon}"
-              h2.l-title
-                = category.title
-              p.l-description
-                = category.description
+            h2.l-title
+              = category.title
+            p.l-description
+              = category.description
+            = link_to 'En savoir plus', category.path, class: 'button small secondary'

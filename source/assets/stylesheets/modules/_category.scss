@@ -1,0 +1,8 @@
+.m-category {
+  .fa {
+    font-size: rem-calc(20);
+    padding: rem-calc(15);
+    border: 3px solid $primary-color;
+    @include radius($global-rounded);
+  }
+}
