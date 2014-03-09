@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+@import
+  "colors",
+  "settings";
+
+@import
+  "foundation/scss/normalize",
+  "foundation/scss/foundation";
+
+@import
+  "components/type",
+  "modules/categories",
+  "modules/header",
+  "modules/footer";
