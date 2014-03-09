@@ -5,7 +5,7 @@
   path: /horaires.html
 -
   title: Billets
-  description: Acheter vos places en ligne
+  description: Acheter vos places directement en ligne
   icon: fa-credit-card
   path: /tickets.html
 -

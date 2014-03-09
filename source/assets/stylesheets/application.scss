@@ -9,4 +9,7 @@
   "foundation/scss/foundation";
 
 @import
-  "modules/category";
+  "components/type",
+  "modules/categories",
+  "modules/header",
+  "modules/footer";
