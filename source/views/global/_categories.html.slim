@@ -5,9 +5,11 @@ hr
       - data.categories.each_with_index do |category|
         li id="#{category.id}"
           div.text-center
-            i class="fa #{category.icon}"
+            i class="fa fa-rounded #{category.icon}"
           h2.l-title
             = category.title
           p.l-description
             = category.description
-          = link_to 'En savoir plus', category.path, class: 'button secondary'
+          = link_to category.path, class: 'button secondary' do
+            'En savoir plus
+            i.fa.fa-caret-right

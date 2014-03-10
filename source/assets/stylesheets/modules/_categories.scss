@@ -1,8 +1,10 @@
 @mixin current-category() {
-  .fa {
+  .fa-rounded {
     border-color: $gray;
+    color: $gray;
   }
-  .l-title {
+  .l-title,
+  .l-description {
     color: $gray;
   }
   .button {
@@ -15,7 +17,7 @@
 }
 
 .m-category {
-  .fa {
+  .fa-rounded {
     font-size: rem-calc(20);
     padding: rem-calc(15);
     border: 3px solid $secondary-color;
@@ -35,6 +37,6 @@
   @include current-category();
 }
 
-.calendar #diary {
+.agenda #diary {
   @include current-category();
 }
