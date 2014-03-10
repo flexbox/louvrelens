@@ -1,19 +1,23 @@
 -
+  id: hour
   title: Horaires
   description: Les heures d’ouverture du musée
   icon: fa-clock-o
   path: /horaires.html
 -
+  id: ticket
   title: Billets
   description: Acheter vos places directement en ligne
   icon: fa-credit-card
   path: /tickets.html
 -
+  id: shop
   title: Boutique
   description: Visiter la boutique officielle du musée
   icon: fa-shopping-cart
   path: /shop.html
 -
+  id: diary
   title: Agenda
   description: Tous les évènements à ne pas manquer
   icon: fa-calendar-o

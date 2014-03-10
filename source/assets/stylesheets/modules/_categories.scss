@@ -1,3 +1,15 @@
+@mixin current-category() {
+  .fa {
+    border-color: $gray;
+  }
+  .l-title {
+    color: $gray;
+  }
+  .button {
+    @include button-style($gray);
+  }
+}
+
 .m-categories {
   padding: rem-calc(40 0);
 }
@@ -9,4 +21,20 @@
     border: 3px solid $secondary-color;
     @include radius($global-rounded);
   }
+}
+
+.horaires #hour {
+  @include current-category();
+}
+
+.tickets #ticket {
+  @include current-category();
+}
+
+.shop #shop {
+  @include current-category();
+}
+
+.calendar #diary {
+  @include current-category();
 }

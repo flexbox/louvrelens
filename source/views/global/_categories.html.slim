@@ -3,7 +3,7 @@ hr
   .medium-12.columns
     ul.large-block-grid-4.medium-block-grid-2.m-category
       - data.categories.each_with_index do |category|
-        li
+        li id="#{category.id}"
           div.text-center
             i class="fa #{category.icon}"
           h2.l-title

@@ -1,0 +1,19 @@
+---
+title: Billeterie
+page_title: Tickets
+page_subtitle: Billets d'entrée pour les expositions
+---
+
+.row.m-tickets
+  .medium-12.columns
+    ul.large-block-grid-3.medium-block-grid-2.m-ticket
+      - data.tickets.each_with_index do |ticket|
+        li
+          .panel
+            = image_tag ticket.image_url
+            h2.l-title
+              = ticket.title
+            p.l-description
+              = ticket.description
+
+= partial 'views/global/categories'
