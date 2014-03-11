@@ -3,3 +3,31 @@
     font-size: rem-calc(14);
   }
 }
+
+.m-footer--navigation {
+  background-color: $gray-light;
+  padding: rem-calc(30 0);
+
+  ul {
+    list-style-type: none;
+    margin-left: 0;
+  }
+}
+
+.m-footer--social {
+  a {
+    color: $black-light;
+  }
+}
+
+.m-footer-newsletter {
+  padding: rem-calc(15 0);
+  background-color: $black-light;
+  .l-title,
+  a {
+    color: $secondary-color;
+  }
+  p {
+    color: $white;
+  }
+}

@@ -1,8 +1,90 @@
+.m-footer--navigation
+  .row
+    .medium-3.columns
+      br
+    .medium-3.columns
+      p
+        strong Musée
+      ul
+        li À propos
+        li Partenaires
+        li Presse
+        li Mentions légales
+        li Contact
+    .medium-3.columns
+      p
+        strong Préparer sa visite
+      ul
+        li Enfant
+        li Ado
+        li Adulte
+        li Famille
+        li Groupe
+        li Education
+    .medium-3.columns.m-footer--social
+      p
+        strong Suivez Le musée sur
+      ul.inline-list
+        li
+          =link_to 'https://www.facebook.com/MuseeLouvreLens' do
+            i.fa.fa-3x.fa-facebook-square
+        li
+          =link_to 'https://twitter.com/MuseeLouvreLens' do
+            i.fa.fa-3x.fa-twitter-square
+        li
+          =link_to 'https://plus.google.com/+louvrelens' do
+            i.fa.fa-3x.fa-google-plus-square
+
+.m-footer-newsletter
+  .row
+    .medium-8.columns
+      h4.l-title Restez au top de l'actualité de votre Musée
+      p
+        'Inscrivez-vous et recevez chaque mois le programme des évènements à venir.
+        br
+        =link_to 'Lire la dernière édition »', '#'
+    .medium-4.columns
+      br
+      br
+      div class="row collapse"
+        div class="small-8 medium-8 columns"
+          input type="text" placeholder="email@example.com" name="email"
+        div class="small-4 medium-4 columns"
+          input type="submit" value="S'inscrire" class="postfix small button secondary expand" href="#"
+
+.m-footer--navigation
+  .row.m-footer-informations
+    .medium-3.columns
+      = image_tag 'louvrelens-logo.png'
+    .medium-4.columns
+      p
+        strong Musée du Louvre-Lens
+        br
+        'Rue Paul Bert
+        br
+        '62300 Lens
+    .medium-5.columns
+      p
+        strong Aide
+        br
+        'Besoin d'aide ? N'hésitez pas à nous poser n'importe quelle question. Vous pouvez nous envoyer un email directement à
+        =' link_to 'info@louvrelens.fr', '#'
+        ' ou nous appeller au 03 21 18 62 62. Vous pouvez aussi consulter notre
+        =' link_to 'FAQ', '#'
+        'et notre
+        =' link_to "page d'aide", '#'
+        'pour avoir plus d'informations.
+
 .row.m-footer
   .medium-12.columns.text-center
+    br
     p
       '&copy; Le Louvre-Lens 2014 &bull; Tous les contenus sont "piratés" depuis
       = link_to 'louvrelens.fr', 'http://louvrelens.fr', target: '_blank', :rel => 'nofollow'
+    hr
     p
-      'Codé à la main par
+
+      'Codé avec
+      i.fa.fa-heart
+      '&nbsp;par
       = link_to 'David Leuliette', 'http://davidl.fr', target: '_blank', :rel => 'nofollow'
