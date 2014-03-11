@@ -1,0 +1,13 @@
+.m-feature-box {
+  &.l-large {
+    background: image-url('louvre-lens-parc.jpg');
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-color: #6AA4ED;
+    @media #{$small-up} {
+      min-height: rem-calc(400);
+    }
+  }
+  .l-medium {}
+  .l-small {}
+}

@@ -6,10 +6,11 @@
 
 @import
   "foundation/scss/normalize",
-  "foundation/scss/foundation";
+  "foundation/scss/foundation",
+  "components/type";
 
 @import
-  "components/type",
   "modules/categories",
+  "modules/homepage",
   "modules/header",
   "modules/footer";
