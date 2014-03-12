@@ -13,3 +13,13 @@
     opacity: 0.5;
   }
 }
+
+.page-nav {
+  background-color: $gray;
+  .inline-list {
+    margin: 0;
+  }
+  a {
+    font-size: rem-calc(14);
+  }
+}
