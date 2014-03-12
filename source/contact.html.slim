@@ -1,0 +1,28 @@
+---
+title: Contact
+page_title: Contact
+---
+
+.row.m-contact data-equalizer=""
+  .medium-12.columns
+    ul.large-block-grid-3.medium-block-grid-2
+      - data.contact.each_with_index do |c|
+        li
+          .panel data-equalizer-watch=""
+            h2.l-title
+              = c.title
+            p.l-description
+              = c.description
+            p
+              = c.phone
+              br
+              =link_to c.email, "mailto:#{c.email}"
+
+.row
+  .medium-10.medium-centered.columns
+    .panel.callout
+      p
+        'Vous cherchez à contacter la personne qui à réalisé la refonte de ce site ? La façon la plus rapide est de me mentionner sur twitter
+        = link_to '@_flexbox', 'https://twitter.com/_flexbox'
+        '. Pour les demandes de plus de 140 caractères je vous invite à m'envoyer un email à
+        = link_to 'dleuliette@gmail.com', 'mailto:dleuliette@gmail.com'

@@ -1,0 +1,15 @@
+.page-header {
+  padding: rem-calc(60 0);
+  background-color: $black-light;
+  margin-bottom: rem-calc($topbar-height);
+  .page-title {
+    color: $secondary-color;
+    text-transform: uppercase;
+    letter-spacing: -2px;
+  }
+  .page-subtitle {
+    color: $white;
+    margin-bottom: 0;
+    opacity: 0.5;
+  }
+}
