@@ -1,4 +1,9 @@
 .m-feature-box {
+  .contrasted {
+    text-align: center;
+    margin-top: rem-calc(150);
+  }
+
   &.l-large {
     background: image-url('louvre-lens-parc.jpg');
     background-position: top center;
