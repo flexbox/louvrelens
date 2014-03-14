@@ -1,7 +1,3 @@
-compass_config do |config|
-  config.output_style = :compact
-end
-
 require 'slim'
 activate :livereload
 activate :gzip
@@ -27,6 +23,5 @@ configure :build do
   activate :asset_hash
 
   activate :relative_assets
-  # set :relative_links, true
 
 end
