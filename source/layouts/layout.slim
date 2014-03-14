@@ -20,6 +20,6 @@ html xmlns:og="http://ogp.me/ns#" xmlns:fb="https://www.facebook.com/2008/fbml" 
     - if current_page.data['page_title'].present?
       = partial 'views/global/page_title'
     = yield
-    = partial 'views/global/footer'
+    = partial 'views/global/footer/main'
 
     = javascript_include_tag 'application'
