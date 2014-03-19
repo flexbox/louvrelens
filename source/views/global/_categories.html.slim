@@ -4,7 +4,7 @@ hr
     ul.large-block-grid-4.medium-block-grid-2.m-category
       - data.categories.each_with_index do |category|
         li id="#{category.id}"
-          div.text-center
+          div.text-center.show-for-large-up
             i class="fa fa-rounded #{category.icon}"
           h2.l-title
             = category.title

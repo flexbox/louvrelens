@@ -19,6 +19,9 @@ title: Accueil
 .row
   .medium-10.medium-centered.columns
     h2 Expositions en cours
+    p
+      'Vous pouvez consulter <a href="/agenda.html">l'agenda</a> pour programmer vos activités, rendez-vous... et vous pouvez également vous inscrire dès maintenant sur <a href="/tickets.html">la billetterie en ligne</a> pour acheter vos places et/ou recevoir directement toutes nos actualités.
+
 .row data-equalizer=""
   .medium-4.columns
     .panel data-equalizer-watch=""
@@ -50,18 +53,29 @@ title: Accueil
     p.text-right
       =link_to '#' do
         'Préparer votre visite
-
         i.fa.fa-caret-right
 .row
   .medium-10.medium-centered.columns
     h2 Actualité du musée
 .row
   .medium-6.columns
-    .panel
-      br
+    .panel.callout
+      .row.collapse
+        .small-4.columns
+          =image_tag 'http://www.louvrelens.fr/documents/10181/420776/nocturne_islam_300.jpg/8b3bc939-baee-47f6-bd9c-009f75bce49a?t=1392132219207&type=jpg&imageThumbnail=1'
+        .small-8.columns
+          p.lead Nocturne "autour des Arts de l'Islam"
+          p Vendredi 4 avril de 18h à 22h
   .medium-6.columns
-    .panel
-      br
+    .panel.callout
+      .row.collapse
+        .small-4.columns
+          =image_tag 'http://www.louvrelens.fr/documents/10181/216186/communiqu%C3%A9s_espace-presse_Louvre-Lens_XML_h_300-300.jpg/70c25c23-687c-4cdb-bd84-d4a95c2f31a4?t=1371202977000&type=jpg&imageThumbnail=1'
+        .small-8.columns
+          p.lead Attaché de presse
+          p Vendredi 4 avril de 18h à 22h
+          br
+          br
     p.text-right
       =link_to '/agenda.html' do
         'Toutes les actus

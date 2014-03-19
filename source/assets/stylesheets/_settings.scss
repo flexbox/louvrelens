@@ -1138,10 +1138,10 @@ $topbar-height: 45px;
 // $topbar-menu-icon-color-toggled: #888;
 
 // Transitions and breakpoint styles
-// $topbar-transition-speed: 300ms;
+$topbar-transition-speed: 300ms;
 // Using rem-calc for the below breakpoint causes issues with top bar
-$topbar-breakpoint: #{upper-bound($large-range)}; // Change to 9999px for always mobile layout
-// $topbar-media-query: "only screen and (min-width: #{upper-bound($medium-range)})";
+// $topbar-breakpoint: #{upper-bound($small-range)}; // Change to 9999px for always mobile layout
+$topbar-media-query: "only screen and (min-width: 1000px)";
 
 // Divider Styles
 // $topbar-divider-border-bottom: solid 1px  scale-color($topbar-bg-color, $lightness: 13%);
