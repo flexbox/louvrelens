@@ -1,0 +1,1 @@
+(function(){$(document).foundation({topbar:{custom_back_text:!0,back_text:"◄ Retour",scrolltop:!1}})}).call(this);
