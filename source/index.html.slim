@@ -18,24 +18,43 @@ title: Accueil
 
 .row
   .medium-10.medium-centered.columns
-    h2 Actualité du musée
-.row
+    h2 Expositions en cours
+.row data-equalizer=""
   .medium-4.columns
-    .panel
-      br
+    .panel data-equalizer-watch=""
+      =link_to '#' do
+        h3 Soeur de ...
+        =image_tag 'http://www.louvrelens.fr/documents/10181/420776/soeurde_home.jpg/5f39d694-f760-485c-9f64-d67416d2fbb9?t=1386690474000&amp;amp;type=jpg'
+        p
+          'Théâtre-spectacle à la Scène
+          br
+          'Jeudi à 15h et 19h et vendredi à 19h
   .medium-4.columns
-    .panel
-      br
+    .panel data-equalizer-watch=""
+      =link_to '#' do
+        h3 Voir le sacré
+        =image_tag 'http://www.louvrelens.fr/documents/10181/99347/poussin-voir-le-sacr%C3%A9_home.jpg/296eec1e-3944-4f49-b5ca-7cbc862575bf?t=1380092170000&amp;type=jpg'
+        p
+          'Pavillon de Verre
+          br
+          'Du 4 décembre 2013 au 21 avril 2014
   .medium-4.columns
-    .panel
-      br
+    .panel data-equalizer-watch=""
+      =link_to '#' do
+        h3 La Galerie du temps
+        =image_tag 'http://www.louvrelens.fr/documents/10181/434974/Oedipe+Ingres_home.jpg/93598517-e6c2-4c4a-b161-7eea92ac90dd?t=1385731185000&amp;amp;type=jpg'
+        p
+          'Grande galerie
+          br
+          'Gratuit jusque fin 2014
     p.text-right
       =link_to '#' do
-        'Toutes les actus
+        'Préparer votre visite
+
         i.fa.fa-caret-right
 .row
   .medium-10.medium-centered.columns
-    h2 Expositions en cours
+    h2 Actualité du musée
 .row
   .medium-6.columns
     .panel
@@ -45,6 +64,6 @@ title: Accueil
       br
     p.text-right
       =link_to '/agenda.html' do
-        'Toutes les expos
+        'Toutes les actus
         i.fa.fa-caret-right
 = partial 'views/global/categories'
