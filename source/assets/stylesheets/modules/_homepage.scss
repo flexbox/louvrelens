@@ -7,10 +7,10 @@
   }
 
   &.l-large {
-    background: image-url('louvre-lens-parc.jpg');
+    background: image-url("louvre-lens-parc.jpg");
     background-position: top center;
     background-repeat: no-repeat;
-    background-color: #6AA4ED;
+    background-color: $black-light;
     @media #{$small-up} {
       min-height: rem-calc(400);
     }
