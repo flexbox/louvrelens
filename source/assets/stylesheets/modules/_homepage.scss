@@ -1,5 +1,5 @@
 .m-feature-box {
-  margin-bottom: rem-calc(20);
+  margin-bottom: rem-calc(40);
 
   .contrasted {
     text-align: center;
@@ -7,7 +7,7 @@
   }
 
   &.l-large {
-    background: image-url("louvre-lens-parc.jpg");
+    background: image-url("https://farm8.staticflickr.com/7199/13408730555_7c863f40d4_o.jpg");
     background-position: top center;
     background-repeat: no-repeat;
     background-color: $black-light;
