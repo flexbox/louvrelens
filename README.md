@@ -18,8 +18,8 @@
 
 ## Contribuer
 
-git pull --rebase
-git checkout -b feature/my-new-feature
-git push
+    git pull --rebase
+    git checkout -b feature/my-new-feature
+    git push
 
 Faites une demande pull-request, je réponds _toujours_, et j'essaie de le faire rapidement.
